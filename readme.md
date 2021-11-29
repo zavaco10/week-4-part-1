@@ -22,4 +22,4 @@ In this file you will *__fill in__* the missing code to complete the function as
 After completing each function. Make sure to call (or use) the function in your code (as shown in the example) to test it and make sure it works correctly. For more complex functions, test multiple outcomes to ensure it works correctly in all scenarios. 
 
 ## Assignment Submission
-Check in your repo, then turn in your work via the Prime Academy Assignment Application at http://primeacademy.io, as usual and don't hesitate to hit up the Slack channel as needed!
+Check in your repo, then turn in your work via the EDA Assignment Portal, as usual and don't hesitate to hit up the Slack channel as needed!
