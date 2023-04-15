@@ -87,23 +87,47 @@ console.log(find(6, myArray)); // should output false
 // 8. Function to check if a letter is the first letter in a 
 //    string. Return true if it is, and false otherwise
 function isFirstLetter(letter, string) {
-
+  if (letter === 'a') {
+    return true;
+  } else {
+    return false;
+  }
 }
 console.log( 'isFirstLetter - should say true', isFirstLetter('a', 'apple') );
 console.log( 'isFirstLetter - should say false', isFirstLetter('z', 'apple') );
 
 // 9. Function to return the sum of all numbers in an array
-function sumAll( ) {
-  let sum = 0
-  // TODO: loop to add items
+function sumAll(arr) {
+  let sum = 0;
+  for (let index = 0; index < array.length; index++) {
+    sum += array[index];
+    }
+   // TODO: loop to add items
   return sum;
-}
+  }
 
 // 10. Function to return a new array of all positive (greater than zero)
 //     numbers contained in an input array. If there are no positive numbers
 //     return an empty array. Note: The input array should not change.
 
+//created and named a function that takes input called inputArray
+//declared newArray and will return stuff or not
+//write a loop to look at all the numbers in inputArray
+//loop will determine positive number or not
+//if the number is posistive add it to newArray
+//if negative do nothing
+//return newArray
 
+function madeUpArray (inputArray){
+  let newArray = []
+  for (let index = 0; index < inputArray.length; index++) {
+    const element =inputArray[index]
+    if (element >= 0) {
+      newArray.push(element)
+    }
+  }
+  return newArray;
+}
 
 // 11. Pick a problem from Edabit(https://edabit.com/) or 
 //     CodeWars(https://www.codewars.com/). Then describe it 
